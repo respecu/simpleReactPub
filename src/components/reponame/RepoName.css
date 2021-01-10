@@ -1,0 +1,10 @@
+.container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group.required .form-group-header label::after, .form-group.required dt label::after {
+    padding-left: 5px;
+    color: var(--color-text-danger);
+    content: "*";
+}
